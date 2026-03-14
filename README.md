@@ -24,24 +24,24 @@ The system uses **in-memory data structures only** (no database) and supports:
 - Version Control: Git
 - Database: Not used (in-memory only)
 
----
-
 ## Project Structure
+
+```
 library-se/
 │
 ├── src/
-│ └── library.py
+│   └── library.py
 │
 ├── tests/
-│ └── test_library.py
+│   └── test_library.py
 │
 ├── docs/
-│ ├── USER_STORIES.md
-│ └── TRACEABILITY.md
+│   ├── USER_STORIES.md
+│   └── TRACEABILITY.md
 │
 ├── README.md
 └── .gitignore
----
+```
 
 ## Sprint-wise Implementation
 
